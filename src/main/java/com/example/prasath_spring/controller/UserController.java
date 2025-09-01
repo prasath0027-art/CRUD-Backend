@@ -11,7 +11,7 @@ import java.nio.file.attribute.UserPrincipalNotFoundException;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("${Frontend_URL}")
 public class UserController {
     @Autowired
     private UserRepository userRepository;
